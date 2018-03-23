@@ -56,7 +56,8 @@ cd Dockerfile-javaweb
 ```
 或者
 ``` bash
-docker run -p 80:80 -p 9001:9001 -p 8080:8080 -t -i guuuo/javaweb
+#docker run -p 80:80 -p 9001:9001 -p 8080:8080 -t -i guuuo/javaweb  端口可能被占用
+docker run -p 800:80 -p 9001:9001 -p 8080:8080 -t -i guuuo/javaweb
 ```
 或者 指定静态资源与Java Web应用程序的路径
 ``` bash
