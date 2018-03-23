@@ -1,1 +1,1 @@
-docker build -t guuuo/javaweb .
+docker build -t wpp/javaweb .
